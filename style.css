@@ -11,7 +11,7 @@
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2em;
     color: white;
     text-align: center;
     margin: 0.5em;
@@ -24,7 +24,7 @@ img{
 }
 
 form{
-    padding:1em;
+    padding: 1em;
     display: block;
     background-color: rgb(251, 144, 56);
     border: 2px solid black;
@@ -53,17 +53,16 @@ button{
     width: 100%;
 }
 
-/* 👇 KORJATTU MEDIA QUERY */
 @media (min-width: 600px) {
     #header img {
         display: block;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
-    .content {
+    #content {
         display: flex;
         justify-content: center;
     }

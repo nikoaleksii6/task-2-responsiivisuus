@@ -51,31 +51,25 @@ button{
 }
 @media (min-width: 600px) {
 
-    /* Näytetään yläpalkin kuva */
-    img {
+    #header img {
         display: block;
     }
 
-    /* Otsikon koko suuremmaksi */
     h1 {
         font-size: 3em;
     }
 
-    /* Keskitetään lomake */
     .content {
         display: flex;
         justify-content: center;
     }
 
-    /* Muutetaan lomake gridiksi */
     form {
         width: 600px;
         display: grid;
         grid-template-columns: 1fr 3fr;
-        gap: 10px;
     }
 
-    /* Submit-nappi kahden sarakkeen levyiseksi */
     button {
         grid-column: 1 / 3;
         justify-self: center;
